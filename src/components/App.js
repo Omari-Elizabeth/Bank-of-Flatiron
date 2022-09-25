@@ -1,7 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import AccountContainer from "./AccountContainer";
 
 function App() {
+  useEffect(() => (
+    fetch ('http://localhost:8001/transactions')
+      .then ((resp) => resp.json())
+      .then (function(transc){
+        console.log(transc)
+      })
+  ));
   return (
     <div className="ui raised segment">
       <div className="ui segment violet inverted">
