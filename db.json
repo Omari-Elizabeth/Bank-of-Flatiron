@@ -85,27 +85,46 @@
       "amount": -975
     },
     {
-      "date": "date",
-      "description": "description",
-      "category": "category",
-      "amount": "amount",
+      "date": "2022-09-27",
+      "description": "movies",
+      "category": "entertainment",
+      "amount": "20",
       "id": 13
     },
     {
-      "date": "date",
-      "description": "description",
-      "category": "category",
-      "amount": "amount",
+      "date": "2022-09-16",
+      "description": "James corden",
+      "category": "Actors",
+      "amount": "23344",
       "id": 14
     },
     {
-      "date": {
-        "date": "2022-09-26"
-      },
-      "description": "description",
-      "category": "category",
-      "amount": "amount",
+      "date": "2022-09-16",
+      "description": "James corden",
+      "category": "Actors",
+      "amount": "23344",
       "id": 15
+    },
+    {
+      "date": "2022-09-28",
+      "description": "Coffee",
+      "category": "Food",
+      "amount": "26",
+      "id": 16
+    },
+    {
+      "date": "2022-09-07",
+      "description": "Gunner",
+      "category": "Football",
+      "amount": "1200",
+      "id": 17
+    },
+    {
+      "date": "2022-09-08",
+      "description": "Buy a yatch",
+      "category": "Leisure",
+      "amount": "20000",
+      "id": 18
     }
   ]
 }

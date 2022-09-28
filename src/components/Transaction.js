@@ -5,7 +5,6 @@ function Transaction(props) {
    
     return (
       <tr key = {transaction.id}>
-        
         <td>{transaction.date}</td>
         <td>{transaction.description}</td>
         <td>{transaction.category}</td>
